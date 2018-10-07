@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>注册界面</title>
+        <style type="text/css">
+            .focusInput {border:1px solid #0000CC;}
+            .username {margin: 3px}
+            .password {margin: 3px}
+            .repeatpassword {margin: 3px}
+            .title{margin-top: 200px; 
+                   font-family: cursive;}
+            .contents{margin-right: 150px}
+            .regist{margin-right: 100px} 
+            body{font-size: 24px;
+                 font-height:3em;
+                 text-align: right;
+                 margin-right: 225px;
+                 background-image:url(https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3094324860,127109281&fm=173&app=25&f=JPEG?w=640&h=415&s=46C0B5194B5051DC83FD8DDD0300D0A2);
+                 background-size: 100%;
+                 background-repeat:no-repeat;
+                }
+        </style>
+        <script type="text/javascript"> 
+            function focusInput(focusClass) {
+                var elements = document.getElementsByTagName("input");
+                for (var i=0; i < elements.length; i++) {
+                    if (elements[i].type != "button" && elements[i].type != "submit" && elements[i].type != "reset") {
+                       elements[i].onfocus = function() { this.className = focusClass; };
+                       elements[i].onblur = function() { this.className = ''; };
+                       }
+                }
+            }
+            window.onload = function () {
+                focusInput('focusInput');
+            }
+        </script>
+    </head>
+
+    <body>
+   	    <h1 class="title">这里是注册界面www</h1>
+        <div class="contents">
+   	    <div class="username" ><input type="text" name="nameinput" placeholder="用户名" ></div>
+   	    <div class="password"><input type="password" name="passwordinput" placeholder="密码"></div>
+   	    <div class="repeatpassword"><input type="password" name="passwordrepeat" placeholder="确认密码"></div>
+        <a href="file:///C:/Sublime%20Text%203/Products/2018%E5%9B%BD%E5%BA%86%E4%BD%9C%E4%B8%9A/%E6%B3%A8%E5%86%8C%E6%88%90%E5%8A%9F%E7%95%8C%E9%9D%A2.html"><span class="regist"><input type="submit" value="注册" name="registbtn" /></span></a>
+        </div>            
