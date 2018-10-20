@@ -1,0 +1,66 @@
+
+<style type="text/css"> 
+            .username {margin: 5px；}
+            .name{margin-right: 175px;
+                  padding: 7px;
+                  padding-left: 5px;
+                  border-radius:3px;}
+            .repeat{margin-right: 175px;
+                    padding: 7px;
+                    padding-left: 5px;
+                    border-radius:3px;
+                    margin-top: 3px;
+                    margin-bottom: 3px;}
+            .phone{margin-right: 175px;
+                  padding: 7px;
+                  padding-left: 5px;
+                  border-radius:3px;
+                  margin-top: 3px;
+                  margin-bottom: 3px;}
+            .code{margin-right: 175px;
+                  padding: 7px;
+                  padding-left: 5px;
+                  border-radius:3px;
+                  margin-top: 3px;
+                  margin-bottom: 3px;}
+            .password {margin-top: 3px;
+                       margin-bottom: 3px;}
+            .pass{margin-right: 175px;
+                  padding: 7px;
+                  padding-left: 5px;
+                  border-radius:3px;}
+            .title{margin-top: 20vh; 
+                   font-family: cursive;}
+            .regist{margin-top: 3px;
+                    margin-bottom: 3px;
+                    margin-right: 200px;
+                    margin-left: 10px;
+                    border-radius:3px;}
+            .registbtn{border-radius:3px;
+                       padding-top: 3px;
+                       padding-bottom: 3px;
+                       padding-right: 10px;
+                       margin-right: 80px;}
+            .registbtn:hover{background-color: #CCCCCC;
+                             color: blue;
+                             cursor: pointer;}
+            input:focus{border-color: blue;}
+            body{font-size: 24px;
+                 font-height:3em;
+                 text-align: right;
+                 margin-right: 10vw;
+                 background-image:url(../images/background.jpg);
+                 background-size: 100%;
+                 background-repeat:no-repeat;
+                }
+            a:link{color: blue;
+                   text-decoration: none;
+                   cursor: default ;}
+            a:active{color: red;
+                     cursor: pointer;} 
+            a:visited{color: purple;
+                      text-decoration: none;}
+            a:hover{color: red; 
+                    text-decoration:none;
+                    cursor: default ;}
+        </style>

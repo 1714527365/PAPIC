@@ -1,0 +1,56 @@
+<style type="text/css"> 
+            .username {margin: 5px;}
+            .name{padding: 7px;
+                  padding-left: 5px;
+                  border-radius:3px;}
+            .password {margin-top: 3px;
+                       margin-bottom: 3px;}
+            .pass{padding: 7px;
+                  padding-left: 5px;
+                  border-radius:3px;}
+            .title{margin-top: 25vh; 
+                   font-family: cursive;}
+            .contents{margin-right: 250px}
+            .submit{}
+            .regist{}
+            .submitbtn{border-radius:3px;
+                       padding-top: 3px;
+                       padding-bottom: 3px;
+                       padding-right: 10px;
+                       position: relative;
+                       right: -15px;}
+            .registbtn{border-radius:3px;
+                       padding-top: 3px;
+                       padding-bottom: 3px;
+                       padding-right: 10px;
+                       position: relative;
+                       right: -20px;}
+            .submitbtn:hover{background-color: #CCCCCC;
+                             color: blue;
+                             cursor: pointer;}
+            .registbtn:hover{background-color: #CCCCCC;
+                             color: blue;
+                             cursor: pointer;}
+            .fbpassword{font-size: 12px;
+                        position: relative;
+                        right: -20px;}
+            input:focus{border-color: blue;}
+            body{font-size: 24px;
+                 font-height:3em;
+                 text-align: right;
+                 margin-right: 75px;
+                 background-image:url(../images/background.jpg);
+                 background-size: 100%;
+                 background-repeat:no-repeat;
+                }
+            a:link{color: blue;
+                   text-decoration: none;
+                   cursor:default ;}
+            a:active{color: red;
+                     cursor: pointer;} 
+            a:visited{color: purple;
+                      text-decoration: none;}
+            a:hover{color: red; 
+                    text-decoration:none;
+                    cursor:default ;}
+        </style>
